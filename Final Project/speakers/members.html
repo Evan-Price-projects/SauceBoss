@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>THE SAUCE BOSS</title>
+		<script src="jquery-3.2.1.js"></script>
+		<script src="rollovers.js"></script>
+           <link rel="shortcut icon" href="../images/sbtn.jpg">
+		<link rel="stylesheet" href="../styles/normalize.css">
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/print.css"
+      media="print">
+
+    </head>
+   
+<body>
+    <header>
+        <img src="../images/condiment.jpg" alt="Condiment Logo" width="80">
+        <h1>The Sauce Boss</h1>
+        <h3>A New Way To Think About Condiments</h3>
+    </header>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Features</a>
+            <ul>
+                <li><a href="conveyor.html">Screw Conveyor</a></li>
+                <li><a href="appcomp.html">Application Compatibility</a></li>
+
+                </li>    
+            </ul>
+        </li>
+        <li>     
+		<li><a href="#">Options</a>
+			<ul>
+				<li><a href="grocery.html">Grocery Store
+					</a></li>
+				<li><a href="chain.html">Chain Resturaunt 
+					</a></li>
+				<li><a href="smbus.html"> Small Business
+					 </a></li>
+				<li><a href="home.html">At Home
+					</a></li>
+			</ul>
+        <li class="lastitem"><a href="aboutus.html">
+            About Us</a>
+            <ul>
+                <li><a href="members.html">Join our Mailing List</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="ideas.html">Potential Future Ideas</a>
+                </li>    
+                <li><a href="info.html">
+                     Contact Information</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>	
+    <main>
+		<h1><center>Join our email list</center></h1>
+		<aside>
+            <h3><center>Popular Sauce Combinations</center></h3>
+            <nav>
+                <ul style="list-style-type:none">
+				<center>
+                    <li>Chipotle Mayo:<br> 
+						<a href="toobin.html">
+                        RECIPE HERE</a></li>
+					<li>Honey Mustard:<br> 
+						<a href="sorkin.html">
+                        RECIPE HERE</a></li>
+                    <li>Sriracha Ranch:<br> <a href="chua.html">
+                        RECIPE HERE</a></li>
+                    <li>Buffalo Ranch:<br><a href="sampson.html">
+                        RECIPE HERE</a></li>
+                    <li>Chipotle Ketchup:<br><a href="eire.html">
+                        RECIPE HERE</a></li>
+                    <li>Fancy Sauce:<br> <a href="tynan.html">
+                        RECIPE HERE</a></li>
+                </ul></center><center>
+				<p><a href="../index.html">Return to Home 
+					page</a></p>
+					</center>
+		</aside>
+		<article>
+		<img src="../images/sauceboss.jpg" 
+			alt="Sauce Boss" width="240" align="middle">
+        <p>
+<form action="account.html" method="get"
+      name="form" id="form" accept-charset="ISO-8859-1">
+<fieldset>
+    <legend>Submit Sauce Ideas</legend>
+    <label for="sauce">Name of Sauce:</label>
+     <input type="sauce" name="sauce" id="sauce"  
+           placeholder="list sauce name then ingredients" 
+           pattern="{4,}"
+           title="submit sauce ideas"><br>
+	<legend><br>Submit:</legend>
+    <label>&nbsp;</label>
+    <input type="submit" id="submit" value="Submit">
+    <input type="reset" id="reset" value="Reset Fields"><br>
+</fieldset>
+</form>
+<br><br><br>
+<form action="register_account.html" method="get"
+      name="registration_form" id="registration_form">
+<fieldset>
+    <legend>Registration Information</legend>
+    <label for="email">E-Mail:</label>
+    <input type="email" name="email" id="email" 
+           autofocus required><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password"  
+           required
+           placeholder="At least 6 letters or numbers" 
+           pattern="[a-zA-Z0-9]{6,}"
+           title="Must be at least 6 alphanumeric 
+           characters"><br>
+    <label for="verify">Verify Password:</label>
+    <input type="password" name="verify" id="verify" 
+           required><br>
+</fieldset>
+<fieldset>
+    <legend>Member Information</legend>
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" id="first_name" 
+        required><br>
+	<label for="last_name">Last Name:</label>
+	<input type="text" name="last_name" id="last_name" 
+        required><br>
+    <label for="state">State:</label>
+    <input type="text" name="state" id="state" required 
+           maxlength="2" 
+           placeholder="2-character code"><br>
+    <label for="zip">ZIP Code:</label>
+    <input type="text" name="zip" id="zip" required 
+           placeholder="5 or 9 digits" 
+           pattern="^\d{5}(-\d{4})?$" 
+           title="Either 5 or 9 digits"><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" id="phone"
+           placeholder="999-999-9999" 
+           pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+           title="Must be 999-999-999 format"><br>
+</fieldset>
+<fieldset id="buttons">
+    <legend>Submit Your Information</legend>
+    <label>&nbsp;</label>
+    <input type="submit" id="submit" value="Submit">
+    <input type="reset" id="reset" value="Reset Fields"><br>
+</fieldset>
+</form>
+		</p>
+		
+		</article>
+	</main>
+           
+    <footer>
+            <p>Brought to you by: Evan Price and Kevin Burnes</p>
+    </footer>
+</body>
+</html>
